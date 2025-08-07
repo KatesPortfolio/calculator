@@ -8,3 +8,10 @@ const multiply = document.getElementById("multiply");
 const equals = document.getElementById("equals");
 
 
+for(let button of buttons){
+  button.addEventListener("click", function (){
+    const inputText = document.getElementById("numbersInput");
+    inputText.value += button.dataset["value"];
+  })
+}
+
