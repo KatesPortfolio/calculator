@@ -15,3 +15,8 @@ for(let button of buttons){
   })
 }
 
+cButton.addEventListener("click", function (){
+  const inputText = document.getElementById("numbersInput");
+  inputText.value = "";
+})
+
